@@ -1,0 +1,3 @@
+-- need to run the rabbit at first, from a docker
+--not sure how to make it not create new docker every time
+sudo docker run -d --hostname rabbitmqhost --name rabbitmq -p 15672:15672 -p 5672:5672 rabbitmq:3-management
